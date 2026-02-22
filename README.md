@@ -1,7 +1,7 @@
 # Scribbles - AI Image Generator
 
 <p align="center">
-  <img src="src/assets/Scribbles-AI-Generator.webp" alt="Scribbles Logo" width="200"/>
+  <img src="src/assets/Scribbles-AI-Generator.webp" alt="Scribbles Logo" width="400"/>
 </p>
 
 Scribbles is a modern AI-powered image generation application built with React. Generate stunning images using state-of-the-art AI models through an intuitive chat-based interface.
