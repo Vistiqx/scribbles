@@ -39,7 +39,7 @@ Scribbles is a modern AI-powered image generation application built with React. 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/scribbles.git
+git clone https://github.com/Vistiqx/scribbles.git
 cd scribbles
 ```
 
