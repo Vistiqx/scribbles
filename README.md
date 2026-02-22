@@ -1,7 +1,7 @@
 # Scribbles - AI Image Generator
 
 <p align="center">
-  <img src="public/Scribbles-Logo-Cvaa-dov.webp" alt="Scribbles Logo" width="200"/>
+  <img src="src/assets/Scribbles-AI-Generator.webp" alt="Scribbles Logo" width="200"/>
 </p>
 
 Scribbles is a modern AI-powered image generation application built with React. Generate stunning images using state-of-the-art AI models through an intuitive chat-based interface.
@@ -169,6 +169,3 @@ For detailed documentation, see the `docs/` directory:
 - [Vite](https://vitejs.dev/) for the excellent build tool
 - [React](https://react.dev/) for the UI library
 
----
-
-<p align="center">Made with ❤️ for AI art enthusiasts</p>
