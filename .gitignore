@@ -1,24 +1,399 @@
-# Logs
-logs
-*.log
+# ===========================================
+# MASTER .GITIGNORE
+# Comprehensive .gitignore for all projects
+# ===========================================
+
+# ----------------------
+# OPERATING SYSTEMS
+# ----------------------
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.Directory
+.Trash-*
+*.swp
+*.swo
+*~
+~
+
+# ----------------------
+# IDEs & EDITORS
+# ----------------------
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+bh_hierarchies.cache
+
+# JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Vim
+[._]*.s[a-v][a-z]
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+
+# Emacs
+*~
+\#*\#
+/.elpa/
+\#*\#
+
+# Atom
+.atom/
+.buildlog
+.history/
+.lib/
+tsgulpfile.js
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.orig
+*.swp
+*~.pyc
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Rd]elease/
+[D]ebug/
+x64/
+x86/
+[Win32]/
+[Ll]oad/
+[B]uild/
+bld/
+[B]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+
+# ----------------------
+# BUILD OUTPUTS & DEPENDENCIES
+# ----------------------
+
+# Node
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 lerna-debug.log*
+.pnp
+.pnp.js
+.yarn-integrity
 
-node_modules
-dist
-dist-ssr
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+*.manifest
+*.spec
+*.log
+
+# Java / Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Rust
+target/
+Cargo.lock
+debug/
+incremental/
+
+# Go
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.sum
+
+# Ruby / Rails
+bundle/
+vendor/bundle
+.ruby-version
+.ruby-gemset
+.byebug_history
+.env
+.rvmrc
+
+# PHP
+vendor/
+node_modules/
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.fleet/
+/.phpunit.result.cache
+
+# .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ----------------------
+# LOGS & DATABASES
+# ----------------------
+
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.accdb
+*.pid
+
+# ----------------------
+# ENVIRONMENT FILES
+# ----------------------
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.local
+secrets/
+credentials.json
+*.pem
+*.key
+
+# ----------------------
+# TEST & COVERAGE
+# ----------------------
+
+coverage/
+.nyc_output/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+junit.xml
+*coverage*
+*coverage.xml
+
+# ----------------------
+# TEMP FILES
+# ----------------------
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
+.temp/
+*.cache
+
+# ----------------------
+# DOCKER
+# ----------------------
+
+.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+.docker/
+
+# ----------------------
+# MISC
+# ----------------------
+
+*.pdf
+*.mp3
+*.mp4
+*.zip
+*.tar.gz
+*.rar
+*.7z
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+Scalable/
+*.gpg
+*.asc
+
+# Vite / React
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Jupyter Notebook
+.ipynb_checkpoints
+.ipynb
+*.ipynb
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Serverless
+.serverless/
+*.zip
+
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Aa]ssets/Plugins/Editor*
+ProjectSettings/GameObjectPaths
+Assets/External/
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
